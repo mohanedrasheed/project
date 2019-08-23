@@ -1,0 +1,134 @@
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f5f5f5;
+    direction: rtl;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+    padding: 15px 10px;
+    background: #CF202E;
+    color: #FFF;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    height: 100vh;
+    z-index: 999;
+    background: #CF202E;
+    color: #fff;
+    transition: all 0.3s;
+    overflow: hidden;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#sidebar.active {
+    right: 0;
+}
+
+#dismiss {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #E50914;
+    position: absolute;
+    top: 15px;
+    right: 200px;
+    cursor: pointer;
+    border: solid 1px #AAA;
+    border-radius: 5px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#dismiss:hover {
+    background: #fff;
+    color: #222;
+}
+
+
+#sidebar .sidebar-header {
+    padding: 15px;
+    background: #E50914;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #222;
+    background: #fff;
+}
+.hom-logo {
+    font-size: 30px;
+}
+.dolar {
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    position: relative;
+}
+.fa-money-bill {
+  font-size: 1.5rem;
+}
+.plus-btn {
+    position: absolute;
+    left: 57px;
+    top: 64px;
+    font-size: 26px;
+}
+.Membership-btn {
+    background: #CF202E;
+    color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 2rem;
+}
+.logo {
+    font-size: 45px;
+}
+.clasOne {
+    margin: 10px;
+    padding: 20px 10px;
+    border: 1px solid #EEE;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0rem 0rem 0.1rem 0rem rgba(0, 0, 0, 0.2);
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  position: absolute;
+  z-index: 1;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 0.7;
+}
+
